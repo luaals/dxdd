@@ -1,0 +1,128 @@
+
+body{
+   background-color: #f9cff7;
+   align-items: center;
+}
+#div1, #div2{
+    float: left;
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.angry-grid {
+    display: grid; 
+    width: 100% auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 0px;
+    height: 10%;
+    
+ }
+   
+ #item-0 {
+ 
+    background-color: #bf696f; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    
+ }
+ #item-1 {
+ 
+    background-color: #ecace7; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-2 {
+ 
+    background-color: #c2a8ab; 
+    grid-row-start: 1;
+    grid-column-start: 3;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+ #item-3 {
+ 
+    background-color: #eca665; 
+    grid-row-start: 1;
+    grid-column-start: 4;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 5;
+    
+ }
+ #item-4 {
+ 
+    background-color: #f4ec0b; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 1;
+    
+ }
+ #item-5 {
+ 
+    background-color: #55dd90; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    
+ }
+ #item-6 {
+ 
+    background-color: #e4d3e3; 
+    grid-row-start: 2;
+    grid-column-start: 3;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-7 {
+ 
+    background-color: #a58bac; 
+    grid-row-start: 2;
+    grid-column-start: 4;
+    padding: 20px;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    
+ }
+
+ #principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ img{
+   height: 150px;
+   width: 150px;
+ }
+ .container{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ button{
+   background-color: #d66be4;
+   padding: 3%;
+ }

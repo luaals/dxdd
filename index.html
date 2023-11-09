@@ -1,0 +1,65 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    
+      <script src="script.js"></script>
+    </head>
+    <body align="center" onload="imagens()" id="selectButton">
+
+        <h2>Drag and Drop de Alicie Antunes e Luana Alves</h2>
+        <p>Arraste o pokemon de acordo com a sombra</p>
+
+    </head>
+    <body>
+     
+        <div class="container">
+    <table>
+        <tr>
+         <td>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+    
+    </div>
+</td>
+
+    <td>
+        <div id="imageContainer">
+            <img id="sombra" src="./img/pokemon.png" width="200">
+        </div>
+    </td>
+    
+        </tr>
+    </table>
+</div>
+
+        <button onclick="imagens()"id="selectButton">Sortear</button>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="angry-grid">
+      <div id="item-0"><img src="./img/resposta1.png"  draggable="true" ondragstart="drag(event)" id="drag"></div>
+
+      <div id="item-1"><img src="./img/resposta2.png"  draggable="true" ondragstart="drag2(event)" id="drag2"></div>
+
+      <div id="item-2"><img src="./img/resposta3.png"  draggable="true" ondragstart="drag3(event)" id="drag3"></div>
+
+      <div id="item-3"><img src="./img/resposta4.png"  draggable="true" ondragstart="drag4(event)" id="drag4"></div>
+
+      <div id="item-4"><img src="./img/resposta5.png"  draggable="true" ondragstart="drag5(event)" id="drag5"></div>
+
+      <div id="item-5"><img src="./img/resposta6.png"  draggable="true" ondragstart="drag6(event)" id="drag6"></div>
+
+      <div id="item-6"><img src="./img/resposa7.png"  draggable="true" ondragstart="drag7(event)" id="drag7"></div>
+
+      <div id="item-7"><img src="./img/resposta8.png"  draggable="true" ondragstart="drag8(event)" id="drag8"></div>
+
+    
+    </div>
+
+
+    </body>
+</html>
+
